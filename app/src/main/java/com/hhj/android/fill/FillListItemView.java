@@ -87,21 +87,15 @@ public class FillListItemView extends LinearLayout {
 
 
 
+				
+
+
+
 			}
 		} else {
 			throw new IllegalArgumentException();
 		}
 	}
-
-//	//이미지 회전 함수
-//	public Bitmap rotateImage(Bitmap src, float degree) {
-//		// Matrix 객체 생성
-//		Matrix matrix = new Matrix();
-//		// 회전 각도 셋팅
-//		matrix.postRotate(degree);
-//		// 이미지와 Matrix 를 셋팅해서 Bitmap 객체 생성
-//		return Bitmap.createBitmap(src, 0, 0, src.getWidth(),src.getHeight(), matrix, true);
-//	}
 
 	/* 이미지 회전 메소드 */
 	public static int getImageRotation(Context context, Uri imageUri) {
